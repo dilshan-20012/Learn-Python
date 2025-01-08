@@ -61,3 +61,11 @@ print(a)
 del a
 print(a) # NameError: name 'a' is not defined
 
+# if elif else
+num = 1
+if num == 1:
+    print('num is 1')
+elif num == 2:
+    print('num is 2')
+else:
+    print('num is not 1 or 2')
