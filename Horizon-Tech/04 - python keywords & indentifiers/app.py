@@ -69,3 +69,17 @@ elif num == 2:
     print('num is 2')
 else:
     print('num is not 1 or 2')
+
+
+# try, except, finally, raise
+def number_dvision():
+    try:
+        number = 5
+        raise ZeroDivisionError
+    except ZeroDivisionError:
+        print('Division by zero error')
+    finally:
+        print('This will execute no matter what')
+
+
+number_dvision()
