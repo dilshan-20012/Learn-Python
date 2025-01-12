@@ -124,3 +124,11 @@ def function1():
 function1()
 print("outside the function:", numb)
 print("new variable:", new_numb)
+
+#in and not in
+# in and not in are membership operators in Python
+num_arr = [100, 200, 300]
+print(100 in num_arr) # True
+print(500 in num_arr) # False
+print(100 not in num_arr) # False
+print(500 not in num_arr) # True
