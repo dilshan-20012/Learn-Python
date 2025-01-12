@@ -172,3 +172,13 @@ def outer():
     print("Outer:", enclosing_non_local)
 
 outer()
+
+
+# pass
+# pass is a null statement in Python
+# pass is used when a statement is required syntactically but you do not want any command or code to execute
+# and it is used as a placeholder
+def function2():
+    pass
+
+function2()
