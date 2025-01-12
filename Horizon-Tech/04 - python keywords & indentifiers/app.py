@@ -98,3 +98,29 @@ for i in range(5):
 # from, import
 from math import sqrt
 sqrt(25)
+
+# global
+# global keyword is used to declare that a variable inside the function is global
+
+numb = 10
+
+def function1():
+    global numb
+    numb = 20
+    print("Inside the function:", numb)
+    # can we initialize new global variable inside the function?
+    # global new_numb = 30 # SyntaxError: invalid syntax
+    global new_numb
+    new_numb = 500
+
+    def innerFuntion():
+        global numb
+        numb = 1500000
+        print("Inside the inner function:", numb)
+
+    innerFuntion()
+
+# print("new variable:", new_numb) # error: the reason is that the function is not called yet and new_numb is not initialized
+function1()
+print("outside the function:", numb)
+print("new variable:", new_numb)
