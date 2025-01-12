@@ -158,3 +158,17 @@ print(addNum(5, 6))
 add2 = lambda x,y: x + y
 print(add2(5, 6))
 # use case of lambda function is high order functions like map, filter, reduce
+
+# nonlocal
+# nonlocal keyword is used to declare that a variable inside the function is nonlocal
+def outer():
+    enclosing_non_local = 10
+    def inner():
+        nonlocal enclosing_non_local
+        enclosing_non_local = 20
+        print("Inner:", enclosing_non_local)
+
+    inner()
+    print("Outer:", enclosing_non_local)
+
+outer()
