@@ -149,4 +149,12 @@ print(True is True) # True
 print(l1 is l2) # True because l1 and l2 are pointing to the same memory location
 # print(True not is True) # SyntaxError: invalid syntax
 
+# lambda
+# lambda is an anonymous function in Python
+def addNum(x, y):
+    return x + y
+print(addNum(5, 6))
 
+add2 = lambda x,y: x + y
+print(add2(5, 6))
+# use case of lambda function is high order functions like map, filter, reduce
