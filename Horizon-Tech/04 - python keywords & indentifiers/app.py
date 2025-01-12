@@ -94,3 +94,7 @@ number_dvision()
 # exclusive means the number is not included
 for i in range(5):
     print(i)
+
+# from, import
+from math import sqrt
+sqrt(25)
