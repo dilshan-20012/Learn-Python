@@ -58,7 +58,7 @@ function1()
 # del (Delete)
 a = 10
 print(a)
-del a
+# del a
 print(a) # NameError: name 'a' is not defined
 
 # if elif else
@@ -83,3 +83,14 @@ def number_dvision():
 
 
 number_dvision()
+
+
+# for (Loop)
+# start, stop, step
+# range(start, stop, step)
+# start is inclusive and stop is exclusive
+# what is inclusive and exclusive?
+# inclusive means the number is included
+# exclusive means the number is not included
+for i in range(5):
+    print(i)
