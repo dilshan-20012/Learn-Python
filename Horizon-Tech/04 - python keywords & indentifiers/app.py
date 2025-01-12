@@ -182,3 +182,32 @@ def function2():
     pass
 
 function2()
+
+
+# return
+# return is used to return a value from a function
+def function3():
+    return 10
+print(function3())
+
+# while
+while True:
+    print("Infinite loop")
+
+
+# with
+# with is used to wrap the execution of a block of code within methods defined by the context manager
+
+# fw = open('test.txt', 'w')
+# fw.write('Hello, World!')
+# fw.close()
+#
+# fr = open('test.txt', 'r')
+# print(fr.read())
+# fr.close()
+
+with open('test.txt', 'w') as file:
+    file.write('Hello, World!')
+
+with open('test.txt', 'r') as file:
+    print(file.read())
