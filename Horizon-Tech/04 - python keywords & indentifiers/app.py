@@ -191,8 +191,8 @@ def function3():
 print(function3())
 
 # while
-while True:
-    print("Infinite loop")
+"""while True:
+    print("Infinite loop")"""
 
 
 # with
@@ -211,3 +211,16 @@ with open('test.txt', 'w') as file:
 
 with open('test.txt', 'r') as file:
     print(file.read())
+
+
+# yield
+# yield is used to return a value from a generator function
+
+def generator():
+    yield 1
+    yield 2
+    yield 3
+
+gen = generator()
+print(next(gen))
+print(next(gen))
