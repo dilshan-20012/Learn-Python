@@ -131,4 +131,22 @@ num_arr = [100, 200, 300]
 print(100 in num_arr) # True
 print(500 in num_arr) # False
 print(100 not in num_arr) # False
-print(500 not in num_arr) # True
+print(500 not in num_arr) #
+
+
+# is
+# is is an identity operator in Python
+# it is used to compare the memory locations of two objects
+# id built-in function is used to get the memory location of an object
+
+print(id(True)) # same memory location
+print(id(True)) # same memory location
+
+l1 = ["100", "5211"]
+l2 = l1
+
+print(True is True) # True
+print(l1 is l2) # True because l1 and l2 are pointing to the same memory location
+# print(True not is True) # SyntaxError: invalid syntax
+
+
