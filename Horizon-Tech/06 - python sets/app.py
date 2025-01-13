@@ -66,3 +66,9 @@ my_set12.discard(33)
 # This method will raise an error if the item does not exist in the set
 my_set13 = {11, 33, 66, 55, 22}
 my_set13.remove(33)
+
+# pop() method to remove an item
+# Since sets are unordered, we will not know which item will be removed.
+my_set14 = {11, 33, 66, 55, 22}
+my_set14.pop()
+print(my_set14)
