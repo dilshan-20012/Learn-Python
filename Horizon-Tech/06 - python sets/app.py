@@ -44,3 +44,9 @@ my_set9 = {11, 33, 66, 55, 22}
 my_set9.add(44)
 my_set9.add(44)
 print(my_set9)
+
+
+#add multiple items to a set, using the update() method
+my_set10 = {11, 33, 66, 55, 22}
+my_set10.update([44, 77, 88])
+print(my_set10)
