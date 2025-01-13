@@ -98,3 +98,11 @@ my_set21 = {44, 77, 88, 11, 33}
 my_set22 = my_set20.intersection(my_set21)
 print(my_set22)
 print(my_set20 & my_set21)
+
+# difference() method to return a set that contains the items that only exist in set1, and not in set2
+# You can also use the - operator
+my_set23 = {11, 33, 66, 55, 22}
+my_set24 = {44, 77, 88, 11, 33}
+my_set25 = my_set23.difference(my_set24)
+print(my_set25)
+print(my_set23 - my_set24)
