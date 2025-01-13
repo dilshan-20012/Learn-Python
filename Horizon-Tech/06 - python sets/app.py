@@ -127,3 +127,24 @@ print(11 not in my_set30)
 my_set31 = {11, 33, 66, 55, 22}
 for x in my_set31:
     print(x)
+
+# built in functions
+# len() function to return the number of items in a set
+my_set32 = {11, 33, 66, 55, 22}
+print(len(my_set32))
+
+# max() function to return the largest item in a set
+my_set33 = {11, 33, 66, 55, 22}
+print(max(my_set33))
+
+# min() function to return the smallest item in a set
+my_set34 = {11, 33, 66, 55, 22}
+print(min(my_set34))
+
+# sum() function to return the sum of all items in a set
+my_set35 = {11, 33, 66, 55, 22}
+print(sum(my_set35))
+
+# sorted() function to return a new sorted list from elements in the set
+my_set36 = {11, 33, 66, 55, 22}
+print(sorted(my_set36))
