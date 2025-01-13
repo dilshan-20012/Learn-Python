@@ -106,3 +106,11 @@ my_set24 = {44, 77, 88, 11, 33}
 my_set25 = my_set23.difference(my_set24)
 print(my_set25)
 print(my_set23 - my_set24)
+
+# symmetric_difference() method to return a set that contains all items from both sets, except items that are present in both sets
+# You can also use the ^ operator
+my_set26 = {11, 33, 66, 55, 22}
+my_set27 = {44, 77, 88, 11, 33}
+my_set28 = my_set26.symmetric_difference(my_set27)
+print(my_set28)
+print(my_set26 ^ my_set27)
