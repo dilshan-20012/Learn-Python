@@ -90,3 +90,11 @@ my_set18 = {44, 77, 88}
 my_set19 = my_set17.union(my_set18)
 print(my_set19)
 print(my_set17 | my_set18)
+
+# intersection() method to return a new set containing only the items that are present in both sets
+# You can also use the & operator
+my_set20 = {11, 33, 66, 55, 22}
+my_set21 = {44, 77, 88, 11, 33}
+my_set22 = my_set20.intersection(my_set21)
+print(my_set22)
+print(my_set20 & my_set21)
