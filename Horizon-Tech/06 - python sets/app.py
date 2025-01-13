@@ -56,3 +56,13 @@ my_set11 = {11, 33, 66, 55, 22}
 my_set11.update((44, 77, 88))
 my_set11.update([1, 2, 3], {100, 200, 300}, "Hello", (5000, 1000))
 print(my_set11)
+
+# discard() method to remove an item
+# This method will not raise an error if the item does not exist in the set
+my_set12 = {11, 33, 66, 55, 22}
+my_set12.discard(33)
+
+# remove() method to remove an item
+# This method will raise an error if the item does not exist in the set
+my_set13 = {11, 33, 66, 55, 22}
+my_set13.remove(33)
