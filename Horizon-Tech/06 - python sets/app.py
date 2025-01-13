@@ -34,3 +34,13 @@ print(my_set7)
 # We can make list from a set
 my_list = list(my_set7)
 print(my_list)
+
+# set can not support indexing
+my_set8 = {11, 33, 66, 55, 22}
+# print(my_set8[0]) # TypeError: 'set' object is not subscriptable
+
+# add() method to add an item to a set
+my_set9 = {11, 33, 66, 55, 22}
+my_set9.add(44)
+my_set9.add(44)
+print(my_set9)
