@@ -72,3 +72,8 @@ my_set13.remove(33)
 my_set14 = {11, 33, 66, 55, 22}
 my_set14.pop()
 print(my_set14)
+
+# clear() method to empty the set
+my_set15 = {11, 33, 66, 55, 22}
+my_set15.clear()
+print(my_set15)
