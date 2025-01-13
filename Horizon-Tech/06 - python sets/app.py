@@ -50,3 +50,9 @@ print(my_set9)
 my_set10 = {11, 33, 66, 55, 22}
 my_set10.update([44, 77, 88])
 print(my_set10)
+
+# update() method can take any iterable
+my_set11 = {11, 33, 66, 55, 22}
+my_set11.update((44, 77, 88))
+my_set11.update([1, 2, 3], {100, 200, 300}, "Hello", (5000, 1000))
+print(my_set11)
