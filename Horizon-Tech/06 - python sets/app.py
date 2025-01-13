@@ -122,3 +122,8 @@ print(11 in my_set29)
 # membership not in set
 my_set30 = {11, 33, 66, 55, 22}
 print(11 not in my_set30)
+
+# iterate over set
+my_set31 = {11, 33, 66, 55, 22}
+for x in my_set31:
+    print(x)
