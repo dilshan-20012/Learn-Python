@@ -30,3 +30,7 @@ print(my_set6)
 # We can make set from a string
 my_set7 = set("Hello")
 print(my_set7)
+
+# We can make list from a set
+my_list = list(my_set7)
+print(my_list)
