@@ -148,3 +148,26 @@ print(sum(my_set35))
 # sorted() function to return a new sorted list from elements in the set
 my_set36 = {11, 33, 66, 55, 22}
 print(sorted(my_set36))
+
+
+# Frozensets
+# Frozensets are immutable sets
+# Frozensets can be used as keys in dictionary
+# Frozensets can be used as elements of another set
+# Frozensets can not have mutable
+# That's mean you can not have list as an item in set
+# my_set37 = frozenset([11, 33, 66, 55, 22, [1, 2, 3]])
+# print(my_set37) # TypeError: unhashable type: 'list'
+
+my_set38 = frozenset([11, 33, 66, 55, 22])
+print(my_set38)
+
+# add() method to add an item to a set
+# my_set39 = frozenset([11, 33, 66, 55, 22])
+# my_set39.add(44) # AttributeError: 'frozenset' object has no attribute 'add'
+
+# discard() method to remove an item
+# This method will not raise an error if the item does not exist in the set
+# my_set40 = frozenset([11, 33, 66, 55, 22])
+
+print(my_set28 | my_set27)
