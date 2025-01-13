@@ -16,5 +16,9 @@ print(my_set3)
 
 # set can not have mutable
 # That's mean you can not have list as an item in set
-my_set4 = {11, 33, 66, 55, 22, [1, 2, 3]}
+# my_set4 = {11, 33, 66, 55, 22, [1, 2, 3]}
 # print(my_set4) # TypeError: unhashable type: 'list'
+
+# We can make set from a list
+my_set5 = set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(my_set5)
