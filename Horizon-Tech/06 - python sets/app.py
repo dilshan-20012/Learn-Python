@@ -77,3 +77,16 @@ print(my_set14)
 my_set15 = {11, 33, 66, 55, 22}
 my_set15.clear()
 print(my_set15)
+
+# del keyword to delete the set completely
+my_set16 = {11, 33, 66, 55, 22}
+del my_set16
+# print(my_set16) # NameError: name
+
+# union() method to return a new set containing all items from both sets
+# You can also use the | operator
+my_set17 = {11, 33, 66, 55, 22}
+my_set18 = {44, 77, 88}
+my_set19 = my_set17.union(my_set18)
+print(my_set19)
+print(my_set17 | my_set18)
