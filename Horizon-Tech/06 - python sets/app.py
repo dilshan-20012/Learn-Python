@@ -13,3 +13,8 @@ print(my_set2) # prints {33, 66, 11, 22, 55}
 # set can have different data types
 my_set3 = {11, 33, 66, 55, 22, "apple", "banana", "cherry"}
 print(my_set3)
+
+# set can not have mutable
+# That's mean you can not have list as an item in set
+my_set4 = {11, 33, 66, 55, 22, [1, 2, 3]}
+# print(my_set4) # TypeError: unhashable type: 'list'
