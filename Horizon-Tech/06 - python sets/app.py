@@ -114,3 +114,11 @@ my_set27 = {44, 77, 88, 11, 33}
 my_set28 = my_set26.symmetric_difference(my_set27)
 print(my_set28)
 print(my_set26 ^ my_set27)
+
+# membership in set
+my_set29 = {11, 33, 66, 55, 22}
+print(11 in my_set29)
+
+# membership not in set
+my_set30 = {11, 33, 66, 55, 22}
+print(11 not in my_set30)
