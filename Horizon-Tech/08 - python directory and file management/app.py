@@ -17,5 +17,10 @@ print(os.listdir()) # ['app.py', 'my_new_dir_02']
 
 # Remove the directory and file
 # os.rmdir('my_new_dir_00') # FileNotFoundError: [WinError 2] The system cannot find the file specified: 'my_new_dir_00'
-os.rmdir('my_new_dir_02')
-os.rmdir('new_dir_01')
+# os.rmdir('my_new_dir_02')
+# os.rmdir('new_dir_01')
+
+# change the directory
+print(os.getcwd())
+os.chdir('C:\\Learn\\Learn-Python\\Horizon-Tech')
+print(os.listdir())
