@@ -10,4 +10,7 @@ os.mkdir('new_dir_01')
 
 # Rename the directory
 # os.rename('new_dir_0', 'new_dir_02') # FileNotFoundError: [WinError 2] The system cannot find the file specified: 'new_dir_0' -> 'new_dir_02'
-os.rename('new_dir_01', 'my_new_dir_02')
+# os.rename('new_dir_01', 'my_new_dir_02')
+
+# List the file and directory in the current directory
+print(os.listdir()) # ['app.py', 'my_new_dir_02']
