@@ -31,3 +31,10 @@ print(dic_01.get('age')) # safer way to access value
 dic_01['name'] = 'Doe'
 dic_01['last name'] = 'John Doe' # if key is not present, it will add new key-value pair
 print(dic_01)
+
+# removing elements
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+dic_01.pop('age') # remove particular item
+dic_01.popitem() # remove last item
+dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
+dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
