@@ -21,3 +21,8 @@ dic_01 = dict() # Empty dictionary
 dic_01 = {} # Empty dictionary
 
 print(dic_01)
+
+# Accessing elements
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+print(dic_01['name']) # faster way to access value
+print(dic_01.get('age')) # safer way to access value
