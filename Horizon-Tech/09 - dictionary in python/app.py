@@ -38,3 +38,8 @@ dic_01.pop('age') # remove particular item
 dic_01.popitem() # remove last item
 dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
 dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
+
+# deleting elements
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+del dic_01['age'] # remove particular item
+del dic_01 # delete entire dictionary
