@@ -26,3 +26,8 @@ print(dic_01)
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
 print(dic_01['name']) # faster way to access value
 print(dic_01.get('age')) # safer way to access value
+
+# Updating elements and adding elements
+dic_01['name'] = 'Doe'
+dic_01['last name'] = 'John Doe' # if key is not present, it will add new key-value pair
+print(dic_01)
