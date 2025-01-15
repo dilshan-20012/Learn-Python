@@ -36,8 +36,8 @@ print(dic_01)
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
 dic_01.pop('age') # remove particular item
 dic_01.popitem() # remove last item
-dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
-dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
+# dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
+# dic_01.pop('age') # remove particular item, if key is present. Otherwise, it will throw an error
 
 # deleting elements
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
@@ -59,3 +59,15 @@ print(dic_01)
 # Dictionary membership test
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
 print('name' in dic_01) # check if key is present
+
+# Iterating through dictionary
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+for key in dic_01:
+    print(key, dic_01[key])
+
+print(len(dic_01)) # length of dictionary
+print(str(dic_01)) # string representation of dictionary
+print(dic_01.items()) # list of key-value pairs
+print(dic_01.keys()) # list of keys
+print(dic_01.values()) # list of values
+print(sorted(dic_01)) # sorted list of keys
