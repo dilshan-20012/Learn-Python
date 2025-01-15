@@ -47,3 +47,7 @@ del dic_01 # delete entire dictionary
 # remove all items
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
 dic_01.clear()
+
+#creating a copy of dictionary
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+dic_02 = dic_01.copy()
