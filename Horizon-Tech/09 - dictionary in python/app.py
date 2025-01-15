@@ -55,3 +55,7 @@ dic_02 = dic_01.copy()
 # creating a new dictionary using comprehension
 dic_01 = {x: x**2 for x in range(5)}
 print(dic_01)
+
+# Dictionary membership test
+dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
+print('name' in dic_01) # check if key is present
