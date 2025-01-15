@@ -51,3 +51,7 @@ dic_01.clear()
 #creating a copy of dictionary
 dic_01 = {'name': 'John', 'age': 25, 'city': 'New York'}
 dic_02 = dic_01.copy()
+
+# creating a new dictionary using comprehension
+dic_01 = {x: x**2 for x in range(5)}
+print(dic_01)
