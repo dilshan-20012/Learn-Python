@@ -17,3 +17,8 @@ print("Hello"[0:10])
 print("Hello"[10:10])
 print("Hello"[:-2])
 print("Hello"[-2:-1])
+
+# string is immutable
+# print("Hello"[0] = "h") # TypeError: 'str' object does not support item assignment
+name = "Hello"
+name = "hello"
