@@ -35,3 +35,17 @@ for char in "Hello":
 print("H" in "Hello")
 print("H" not in "Hello")
 print("h" in "Hello")
+
+# string built-in functions
+print(len("Hello"))
+print(str(10))
+print(str(10.5))
+print(str(True))
+print(str(False))
+print(str([1, 2, 3]))
+string_1 = "Hello"
+print(len(string_1))
+print(string_1.upper())
+
+# enumerate function is used to get the index and value of the string
+print(list(enumerate("Hello")))
