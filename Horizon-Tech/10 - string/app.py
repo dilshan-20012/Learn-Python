@@ -22,3 +22,7 @@ print("Hello"[-2:-1])
 # print("Hello"[0] = "h") # TypeError: 'str' object does not support item assignment
 name = "Hello"
 name = "hello"
+
+# string concatenation
+print("Hello" + " " + "World")
+print("Hello " * 3)
