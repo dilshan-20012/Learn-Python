@@ -26,3 +26,7 @@ name = "hello"
 # string concatenation
 print("Hello" + " " + "World")
 print("Hello " * 3)
+
+# string iteration
+for char in "Hello":
+    print(char)
