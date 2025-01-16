@@ -30,3 +30,8 @@ print("Hello " * 3)
 # string iteration
 for char in "Hello":
     print(char)
+
+# string membership
+print("H" in "Hello")
+print("H" not in "Hello")
+print("h" in "Hello")
