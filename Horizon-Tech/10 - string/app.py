@@ -56,3 +56,9 @@ print("what's your name?")
 # print('what's your name?')
 print("what\'s your name?")
 print('what"s your name?')
+
+print("Hello\\World") # only one backslash will be printed
+print("Hello\nWorld") # only one backslash will be printed
+print("Hello\tWorld")
+print("Hello\bWorld")
+print("\x41\x42\x43\x44\x45\x46")
