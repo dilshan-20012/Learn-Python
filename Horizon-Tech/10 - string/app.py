@@ -49,3 +49,10 @@ print(string_1.upper())
 
 # enumerate function is used to get the index and value of the string
 print(list(enumerate("Hello")))
+
+# string escape characters
+print("Hello\nWorld")
+print("what's your name?")
+# print('what's your name?')
+print("what\'s your name?")
+print('what"s your name?')
