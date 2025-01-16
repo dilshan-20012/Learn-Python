@@ -62,3 +62,9 @@ print("Hello\nWorld") # only one backslash will be printed
 print("Hello\tWorld")
 print("Hello\bWorld")
 print("\x41\x42\x43\x44\x45\x46")
+
+# string formatting
+print("{0} {1} {2}".format("Hello", "World", "!"))
+# print("{} {} {}".format("Hello", "World")) # IndexError: tuple index out of range
+print("{} {} {}".format("Hello", "World", "!"))
+print("{i} {j}".format(i="Hello", j="World"))
