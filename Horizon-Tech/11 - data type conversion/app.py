@@ -13,3 +13,10 @@ print(type(num_new)) # <class 'int'>
 num_int = 123
 num_str = "456"
 # print(num_int+num_str) # TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+# Explicit type conversion
+num_int = 123
+num_str = "456"
+
+num_str = int(num_str)
+print(num_int+num_str) # 579
