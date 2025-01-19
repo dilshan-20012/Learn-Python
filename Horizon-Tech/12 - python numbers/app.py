@@ -47,3 +47,10 @@ num5 = F(1) / F(3) # 1/3
 print(num3)
 print(num4)
 print(num5)
+
+# Python math module
+import math
+
+math.sqrt(16) # 4.0
+math.pow(2, 3) # 8.0
+math.exp(3) # 20.085536923187668
