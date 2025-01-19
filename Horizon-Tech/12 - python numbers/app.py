@@ -20,3 +20,5 @@ value3 = 100 + 5j
 print(type(value3))
 print(value3)
 print(isinstance(value3, complex)) # True
+
+print(0b1101) # 13 this is the binary representation of 13
