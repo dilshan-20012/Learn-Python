@@ -14,3 +14,9 @@ print(type(value2))
 print(value2)
 print(isinstance(value2, int)) # False
 print(isinstance(value2, float)) # True
+
+# Complex
+value3 = 100 + 5j
+print(type(value3))
+print(value3)
+print(isinstance(value3, complex)) # True
