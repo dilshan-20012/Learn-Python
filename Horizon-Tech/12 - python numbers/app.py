@@ -30,3 +30,11 @@ print(10 + 0.1) # 10.1 type implicitly converted to float
 print(int(10.1)) # 10 type explicitly converted to int
 print(int(-10.1)) # 10 type explicitly converted to int
 print(float(10)) # 10 type explicitly converted to int
+
+# Python decimals
+num1 = 10.3 + 11.2
+num1 = 0.1 + 0.4
+print(num1) # 21.5
+from decimal import Decimal as D
+num2 = D('0.1') + D('0.4')
+print(num2)
