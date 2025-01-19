@@ -54,3 +54,17 @@ import math
 math.sqrt(16) # 4.0
 math.pow(2, 3) # 8.0
 math.exp(3) # 20.085536923187668
+
+
+# Python random module
+import random as rand
+
+print(rand.randrange(0,20)) # random number between 0 and 1
+print(rand.randrange(5,20)) # random number between 5 and 20
+print(rand.randrange(5,20)) # random number between 5 and 20
+
+day = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+print(rand.choice(day)) # random day of the week
+print(rand.shuffle(day)) # shuffle the list
+print(day) # shuffle the list
+print(rand.random())
