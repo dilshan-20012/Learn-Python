@@ -23,3 +23,4 @@ print(isinstance(value3, complex)) # True
 
 print(0b1101) # 13 this is the binary representation of 13
 print(0x1101) # 4353 this is the hexadecimal representation of 13
+print(0o23) # 19 this is the octal representation of 13
