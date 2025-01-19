@@ -38,3 +38,12 @@ print(num1) # 21.5
 from decimal import Decimal as D
 num2 = D('0.1') + D('0.4')
 print(num2)
+
+# Python fractals
+from fractions import Fraction as F
+num3 = F(2, 3) # 2/3
+num4 = F(1.5) # 3/2
+num5 = F(1) / F(3) # 1/3
+print(num3)
+print(num4)
+print(num5)
